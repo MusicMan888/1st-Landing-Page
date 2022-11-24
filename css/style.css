@@ -1,3 +1,38 @@
 * {
   Border :  2px solid red;
+} 
+.hdr-container {
+  display: flex;
+  background: #1f2937;
+  color: white;
+
+  flex: 1;
+  justify-content: center;
+}
+.hdr-container img {
+  padding: 6px;
+  margin-right: 40rem;
+}
+
+.hdr-container a {
+  color: #E5E7Eb;
+  padding: 6px;
+  
+} 
+
+.hero-container {
+  display: flex;
+  background: #1f2937;
+  justify-content: center;
+
+  flex: 1;
+}
+.hero-container h1 {
+  color: #F9FAF8;
+}
+.hero-container p {
+  color: #E5E7Eb;
+}
+.hero-container box_1 {
+
 }
