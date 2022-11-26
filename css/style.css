@@ -1,11 +1,13 @@
-*{
+/* {
   Border :  2px solid red;
-} 
+}*/
 header {
   display: flex;
   background: #1f2937;
-  padding-top: 6px;
+  padding-top: 15px;
   padding-bottom: 6px;
+  margin-left: 18rem;
+  margin-right: 18rem;
   justify-content: center;
 }
 header img {
@@ -16,7 +18,7 @@ header img {
 header a {
   margin-left: 1rem;
   font-size: 18px;
-  color: #E5E7Eb
+  color: #E5E7EB
 }
 
 .hero-container {
@@ -26,12 +28,13 @@ header a {
   align-items: center;
   flex: 1;
   height: 25rem;
+  margin-left: 18rem;
+  margin-right: 18rem;
   width: auto;
-
 }
 .box_1 {
-  height: 12rem;
-  Width: 24rem;
+  height: 13rem;
+  Width: 26rem;
 }
 .box_1 h1 {
   font-size: 48px;
@@ -42,13 +45,30 @@ header a {
 }
 .hero-container p {
   font-size: 18px;
-  color: #E5E7Eb;
-  margin-top: 1px;
+  color: #E5E7EB;
+  margin-top: 2px;
+  margin-bottom:2px;
+}
+.hero-container button {
+  background-color: #3882F6;
+  color:#E5E7EB;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  margin-top: 2px;
+  margin-left: 2px;
+  border-radius: 6px;
 }
 .box_2 {
-  height: 12rem;
-  width: 24rem;
+  background-color: gray;
+  color: #E5E7EB;
+  height: 13rem;
+  Width: 26rem; 
 }
-.box_2 img {
-  align-self;
+.box_2 .text {
+  margin-left: 80px;
+  Margin-top: 90px;
 }
+
+
