@@ -1,10 +1,11 @@
-* {
+/* {
   Border :  2px solid red;
-}
+}*/
 html{
   margin-left: 18rem;
   margin-right: 18rem;
 }
+/* Header section*/
 header {
   display: flex;
   background: #1f2937;
@@ -24,7 +25,7 @@ header a {
   font-size: 18px;
   color: #E5E7EB
 }
-
+/* Hero Section */
 .hero-container {
   display: flex;
   background: #1f2937;
@@ -75,7 +76,7 @@ header a {
   margin-left: 80px;
   Margin-top: 90px;
 }
-
+/* Random info section */ 
 h2 {
   font-size: 36px;
   color: #1f2937;
@@ -84,22 +85,34 @@ h2 {
   margin-bottom: 2px;
 }
 
-.image-cont {
+.random-container {
   height: 20rem;
   width: auto;
   margin-top: 0;
   display: flex;
   flex: 1;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  background-color: white;
 }
-.img {
+.container {
+  width: 7rem;
+  padding-left: 2px;
+  padding-right: 3px;
+  margin: 10px;
+  text-align: center;
+  font-size: smaller;
+}
+
+.box {
+  background-color: white;
   height: 7rem;
   width: 7rem;
-  margin: 6px;
+  margin: 0px;
+  margin-top: 40px;
+  text-align: center;
   border-radius: 8px;
   border: 2px solid gray;
+  line-height: 115px
 }
-
-
 
