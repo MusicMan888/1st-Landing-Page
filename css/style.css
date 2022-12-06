@@ -2,13 +2,14 @@
   Border :  2px solid red;
 } */
 /* Global Declarations */
+/*
 html {
   margin-left: 18rem;
   margin-right: 18rem;
-  
 }
+*/
 body{
-  font: roboto;
+ font: roboto;
 }
 /* Header Section*/
 header {
@@ -44,7 +45,7 @@ header a {
   Width: 26rem;
 }
 .box_1 h1 {
-  font-size: 48px;
+  font-size: 42px;
   font-weight: bolder;
   color: #F9FAF8;
   margin-top: 0;
@@ -151,4 +152,53 @@ h2 {
 
 /* Call To Action Section */
 
+.cta_container{
+  height: 18rem;
+  width: auto;
+  margin-top: 0;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
 
+.call_box{
+  background-color: #3882F6;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  height: 7rem;
+  width: 48rem;
+
+  border-radius: 8px;
+}
+
+.text {
+  margin-left: 80px;
+}
+.text h3 {
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.text p {
+  font-size: small;
+  margin-top: 0px;
+}
+
+.call_box button {
+  margin-left: 120px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: 2px solid white;
+  background-color: #3882F6;
+  color:#E5E7EB;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  border-radius: 6px;
+}
