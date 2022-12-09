@@ -8,9 +8,7 @@ html {
   margin-right: 18rem;
 }
 */
-body{
- font: roboto;
-}
+
 /* Header Section*/
 header {
   display: flex;
