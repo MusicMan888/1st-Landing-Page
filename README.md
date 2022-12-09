@@ -10,3 +10,5 @@ One thing I learned as a result, was the relationship between the div boxes and 
 The fourth section "inspiring quote" was also difficult and had me wondering if I was completely wrong in my understanding of flex box, in the end I was able to duplicate the look of the section, however I'm not happy with the way the text spills out when the page width is reduced. I was able to get the page to use the roboto font but again not to my liking.
 
 The fifth section "call to action" was slightly easier because I planned the boxes out first. The most difficult part was styling and positioning the button. I did notice that the proportions of the entire page seems slightly narrow due to the fact that I printed the photo provided as a guide. The instructions indicate it was not necessary to make it pixel perfect so I will keep this in mind for the next landing page I create.
+
+Finally the footer was simple - I will validate my HTML and CSS files and upload my solution. 

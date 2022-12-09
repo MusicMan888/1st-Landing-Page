@@ -202,3 +202,14 @@ h2 {
   padding-top: 6px;
   border-radius: 6px;
 }
+
+/* Footer Section */
+footer {
+  background: #1f2937;
+  padding-top: 15px;
+  padding-bottom: 6px;
+  text-align: center;
+}
+footer p{
+  color:#E5E7EB;
+}
