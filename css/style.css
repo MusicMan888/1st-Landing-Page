@@ -2,12 +2,12 @@
   Border :  2px solid red;
 } */
 /* Global Declarations */
-/*
-html {
-  margin-left: 18rem;
-  margin-right: 18rem;
+
+@import url('https://fonts.googleleapis.com/ccs2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif;
 }
-*/
 
 /* Header Section*/
 header {
